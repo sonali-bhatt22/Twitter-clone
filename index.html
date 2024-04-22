@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="bg-black text-white ">
+    <div class="flex container ">
+        <div class="first md:w-[25%] top-0 w-14 mr-2 ">       
+            <div class="sidebar lg:mx-10 mx-3 sticky top-0 ">
+                <div class="logo invert w-8 my-4 md:ml-4">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i
+                    r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254
+                    2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>                                        
+                </div>
+                <ul class="flex flex-col lg:gap-1 gap-3 justify-start text-xl cursor-pointer ">
+                    <li class="flex gap-3 items-center hover:bg-[#2f3336] hover:w-fit md:px-4 py-1 rounded-[30px]"><span class="material-symbols-outlined text-3xl ">home</span>  <span class="hidden lg:block"> Home</span>  </li>
+                    <li class="flex gap-3 items-center hover:bg-[#2f3336] hover:w-fit md:px-4 py-1 rounded-[30px]"><span class="material-symbols-outlined text-3xl">notifications</span> <span class="hidden lg:block">Notifications</span> </li>
+                    <li class="flex gap-3 items-center hover:bg-[#2f3336] hover:w-fit md:px-4 py-1 rounded-[30px]"><span class="material-symbols-outlined text-3xl">mail</span> <span class="hidden lg:block">Messages</span> </li>
+                    <li class="flex gap-3 items-center hover:bg-[#2f3336] hover:w-fit md:px-4 py-1 rounded-[30px]"><span class="material-symbols-outlined text-3xl">indeterminate_check_box</span>  <span class="hidden lg:block">Grok</span> </li>
+                    <li class="flex gap-3 items-center hover:bg-[#2f3336] hover:w-fit md:px-4 py-1 rounded-[30px]"><span class="material-symbols-outlined text-3xl">search</span>  <span class="hidden lg:block">Explore</span></li>
+                    <li class="flex gap-3 items-center hover:bg-[#2f3336] hover:w-fit md:px-4 py-1 rounded-[30px]"><span class="material-symbols-outlined text-3xl">featured_play_list</span>  <spin class="hidden lg:block">Lists</spin ></li>                   
+                    <li class="flex gap-3 items-center hover:bg-[#2f3336] hover:w-fit md:px-4 py-1 rounded-[30px]"><span class="material-symbols-outlined text-3xl">person</span>  <span class="hidden lg:block">Profile</span> </li>    
+                    <li class="flex gap-3 items-center hover:bg-[#2f3336] hover:w-fit md:px-4 py-1 rounded-[30px]"><span class="material-symbols-outlined text-3xl">more_horiz</span>  <span class="hidden lg:block">More</span> </li>
+                </ul>
+
+                <button class="bg-[#1d9bf0] w-[100%] lg:py-3  rounded-[30px] lg:my-4 my-2 font-semibold text-lg align-middle "><span class="lg:block hidden">Post</span></button>
+
+                <div class="profile flex gap-2 items-center mx-3 cursor-pointer ">
+                    <img class="lg:w-10 md:w-10 sm:w-10 w-12 rounded-full" src="profilephoto.jpg" alt="">
+                    <div class="profile-info my-2 hidden lg:block">
+                        <h4 class="text-sm font-semibold">Sonali Bhatt</h4>
+                        <p  class="text-gray-500 text-sm font-semibold">@SonaliBhatt6636</p>
+                    </div>
+                    <span class="material-symbols-outlined text-xl mx-12 hidden lg:block">more_horiz</span>
+
+                     
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="second  border-[1px] border-x-gray-500 border-y-black sm:w-[85%] w-[100%]">
+            <nav class="bg-transparent backdrop-blur-lg  w-full flex h-[60px] font-semibold sticky top-0 cursor-pointer">
+                
+                
+                <div class="w-[40%] p-4 hover:h-full hover:bg-[#2f3336] text-center">
+                    <div class="absolute w-14 h-1 bg-blue-500 bottom-[-2px] lg:mx-20 mx-6 rounded-xl z-10" ></div>
+                    <p class="relative ">Foryou</p>
+                </div>            
+                <div class="w-[40%] p-4 hover:h-full hover:bg-[#2f3336] text-center">Following</div>
+                <div class="w-[10%]  p-4 hover:bg-[#2f3336] hover:rounded-full text-center hidden sm:block"><span class="material-symbols-outlined" >settings</span></div>
+                
+                
+                
+            </nav>
+            <div class="bg-gray-400 h-[1px] sticky top-[60px]"></div>
+            <div class="whatshappening">
+                <div class="user-input flex p-3 gap-3 cursor-pointer ">
+                    <img class="rounded-full size-10" alt="Sonali Bhatt" src="profilephoto.jpg">
+                    <input class="bg-black text-gray-400 sm:text-xl font-sans outline-none" type="text" placeholder="What is happening?! ">
+                    
+                </div>
+                <div class="options ml-16 flex gap-3 mb-5 mt-4  cursor-pointer ">
+                    
+                    <span class="material-symbols-outlined text-blue-800 text-[21px]  hover:bg-blue-300 hover:rounded-full hover:p-1" >
+                        imagesmode
+                    </span>
+                    <span class="material-symbols-outlined text-blue-800 text-[21px] hover:bg-blue-300 hover:rounded-full hover:p-1">
+                        gif_box
+                    </span>
+                    <span class="material-symbols-outlined text-blue-800 text-[21px] hover:bg-blue-300 hover:rounded-full hover:p-1">
+                        ballot
+                    </span>
+                    <span class="material-symbols-outlined text-blue-800 text-[21px] hover:bg-blue-300 hover:rounded-full hover:p-1">
+                        mood
+                    </span>
+                    <span class="material-symbols-outlined text-blue-800 text-[21px] hover:bg-blue-300 hover:rounded-full hover:p-1">
+                        event
+                    </span>
+                    <span class="material-symbols-outlined text-blue-800 text-[21px] hover:bg-blue-300 hover:rounded-full hover:p-1">
+                        location_on
+                    </span>
+                
+                </div>
+                <div class="h-[1px] w-[100%] bg-gray-500"></div>
+            </div>
+            <div class="post1 ">
+                <div class="profile-info flex gap-2 items-start p-3">
+                    
+                    <img class="rounded-[50%] w-10 h-10 mt-1" alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1559752542372122624/6UiH4Ubt_normal.jpg" class="css-9pa8cd">
+                    <div class="flex flex-col"> 
+                        <div class="info flex items-center">
+                            <P class="font-semibold sm:text-base text-sm">RVCJ Media</P>
+                            <svg class="w-5" viewBox="0 0 22 22" aria-label="Verified account" role="img" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-1plcrui r-lrvibr r-f9ja8p r-og9te1 r-9cviqr" data-testid="icon-verified"><g><path clip-rule="evenodd" d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="#829aab" fill-rule="evenodd"></path></g></svg>
+                            <p class="ml-2 text-gray-400 font-semibold sm:text-sm text-xs">RVSJ_FB 6h</p>
+                             
+                        </div>
+                        <div class="sm:text-base text-sm text-slate-200">Agree?</div>
+                    </div>
+                </div>
+                
+                <div class="post pl-14 mt-3">
+                    <img class="rounded-[15px] w-[450px]" alt="Image" draggable="true" src="https://pbs.twimg.com/media/GLBEDldboAAb_DV?format=jpg&amp;name=small" class="css-9pa8cd">
+
+
+                </div>
+                <div class="likecommentshare flex justify-between pl-14 mt-3 mb-[10px]">
+                    <span class="material-symbols-outlined text-[21px] flex items-center text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                         quick_phrases <p class="text-sm font-sans font-semibold">100</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] flex items-center text-gray-500 cursor-pointer hover:text-green-500 sm:text-xl text-base">
+                        autorenew <p class="text-sm font-sans font-semibold">40</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] flex items-center text-gray-500 cursor-pointer hover:text-pink-500 sm:text-xl text-base">
+                        favorite <p class="text-sm font-sans font-semibold">900</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] flex items-center text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                        bar_chart_4_bars <p class="text-sm font-sans font-semibold">20k</p>
+                    </span>
+                    <div class="mr-4">
+                        <span class="material-symbols-outlined text-[21px] items-center text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                            bookmark 
+                        </span>
+                        <span class="material-symbols-outlined text-[21px] items-center text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                            present_to_all 
+                        </span>
+                    </div>
+
+                    
+
+                
+                </div>
+                <div class="h-[1px] w-[100%] bg-gray-500"></div>
+            </div>
+            <div class="post2 ">
+                <div class="profile-info flex gap-2 items-start p-3">
+                    
+                    <img class="rounded-[50%] w-10 h-10 mt-1" alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1678102817838432257/bhq-CjuJ_normal.jpg" class="css-9pa8cd">
+                    <div class="flex flex-col"> 
+                        <div class="info flex items-center">
+                            <P class="font-semibold sm:text-base text-sm">Madrid Xtra</P>
+                            <svg class="w-5 fill-current text-blue-400" viewBox="0 0 22 22" aria-label="Verified account" role="img" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-1plcrui r-lrvibr r-1cvl2hr r-f9ja8p r-og9te1 r-9cviqr" data-testid="icon-verified"><g><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"></path></g></svg>
+
+                            <p class="ml-2 text-gray-400 font-semibold sm:text-sm text-xs">@MadridXtra 16h</p>
+                             
+                        </div>
+                        <div class=" text-slate-200 sm:text-base text-sm">Real Madrid royalty.</div>
+                    </div>
+                </div>
+                
+                <div class="post pl-14 mt-3 pr-3">
+                    <img class="rounded-[15px] w-full" alt="Image" draggable="true" src="https://pbs.twimg.com/media/GLBIgEaakAANiD7?format=jpg&amp;name=small" class="css-9pa8cd">
+
+                </div>
+                <div class="likecommentshare flex justify-between pl-14 mt-3 mb-[10px]">
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                         quick_phrases <p class="sm:text-sm text-[13px] font-sans font-semibold">118</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-green-500 sm:text-xl text-base">
+                        autorenew <p class="sm:text-sm text-[13px] font-sans font-semibold">3.5K</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-pink-500 sm:text-xl text-base">
+                        favorite <p class="sm:text-sm text-[13px] font-sans font-semibold">65K</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                        bar_chart_4_bars <p class="sm:text-sm text-[13px] font-sans font-semibold">1.2M</p>
+                    </span>
+                    <div class="mr-2">
+                        <span class="material-symbols-outlined text-[21px] text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                            bookmark 
+                        </span>
+                        <span class="material-symbols-outlined text-[21px] text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                            present_to_all 
+                        </span>
+                    </div>
+
+                    
+
+                
+                </div>
+                <div class="h-[1px] w-[100%] bg-gray-500"></div>
+            </div>
+            <div class="post3 ">
+                <div class="profile-info flex gap-2 items-start p-3">
+                    
+                    <img class="rounded-[50%] w-10 h-10 mt-1" alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1693441541467934720/6oy90J17_normal.jpg" class="css-9pa8cd">
+                    <div class="flex flex-col"> 
+                        <div class="info flex items-center">
+                            <P class="font-semibold sm:text-base text-sm">desi mojito 66</P>
+                            <svg class="w-5 fill-current text-blue-500" viewBox="0 0 22 22" aria-label="Verified account" role="img" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-1plcrui r-lrvibr r-f9ja8p r-og9te1 r-9cviqr" data-testid="icon-verified"><g><path clip-rule="evenodd" d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill-rule="evenodd"></path></g></svg>
+                            <p class="ml-2 text-gray-400 font-semibold sm:text-sm text-xs">@desi.mojito Apr13</p>
+                             
+                        </div>
+                        <div class="sm:text-base text-sm text-slate-200">And they say India is a patriarchal society 🤡🤡</div>
+                    </div>
+                </div>
+                
+                <div class="post pl-14 mt-3 pr-3">
+                    <img class="rounded-[15px] w-full" alt="Image" draggable="true" src="https://pbs.twimg.com/media/GK-7RMOXcAA3Cwi?format=jpg&amp;name=small" class="css-9pa8cd">
+
+                </div>
+                <div class="likecommentshare flex justify-between pl-14 mt-3 mb-[10px]">
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                         quick_phrases <p class="sm:text-sm text-[13px] font-sans font-semibold">93</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-green-500 sm:text-xl text-base">
+                        autorenew <p class="sm:text-sm text-[13px] font-sans font-semibold">2.4K</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-pink-500 sm:text-xl text-base">
+                        favorite <p class="sm:text-sm text-[13px] font-sans font-semibold">16K</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                        bar_chart_4_bars <p class="sm:text-sm text-[13px] font-sans font-semibold">128K</p>
+                    </span>
+                    <div class="mr-2">
+                        <span class="material-symbols-outlined text-[21px] text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                            bookmark 
+                        </span>
+                        <span class="material-symbols-outlined text-[21px] text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                            present_to_all 
+                        </span>
+                    </div>
+
+                    
+
+                
+                </div>
+                <div class="h-[1px] w-[100%] bg-gray-500"></div>
+            </div>
+            <div class="post4 ">
+                <div class="profile-info flex gap-2 items-start p-3">
+                    <img class="rounded-[50%] w-10 h-10 mt-1" alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1216361791913185280/zmy-ITy2_normal.jpg" class="css-9pa8cd">
+                    <div class="flex flex-col"> 
+                        <div class="info flex items-center">
+                            <P class="font-semibold sm:text-base text-sm">Global.baba</P>
+                            <svg class="w-5 fill-current text-blue-500" viewBox="0 0 22 22" aria-label="Verified account" role="img" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-1plcrui r-lrvibr r-f9ja8p r-og9te1 r-9cviqr" data-testid="icon-verified"><g><path clip-rule="evenodd" d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"  fill-rule="evenodd"></path></g></svg>
+                            <p class="ml-2 text-gray-400 font-semibold sm:text-sm text-xs">@globalBaba 6h</p>
+                             
+                        </div>
+                        <div class="sm:text-base text-sm text-slate-200">Doesn’t matter if this is from India or Pakistan, it’s still pathetic. An unemployed guy disrupting public 
+                            space and wanting his fellow country people jobless because of some foreign conflict. That means he doesn’t 
+                            have the best interests for his country or people like this don’t…
+                            Show more</div>
+                    </div>
+                </div>
+                
+                
+                <div class="likecommentshare flex justify-between pl-14 mt-3 mb-[10px]">
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                         quick_phrases <p class="sm:text-sm text-[13px] font-sans font-semibold">100</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-green-500 sm:text-xl text-base">
+                        autorenew <p class="sm:text-sm text-[13px] font-sans font-semibold">40</p>
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-pink-500 sm:text-xl text-base">
+                        favorite <p class="sm:text-sm text-[13px] font-sans font-semibold">900</p>
+                        
+                        
+                    </span>
+                    <span class="material-symbols-outlined text-[21px] items-center flex text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                        bar_chart_4_bars <p class="sm:text-sm text-[13px] font-sans font-semibold">20k</p>
+                    </span>
+                    <div class="mr-2">
+                        <span class="material-symbols-outlined text-[21px] text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                            bookmark 
+                        </span>
+                        <span class="material-symbols-outlined text-[21px] text-gray-500 cursor-pointer hover:text-blue-500 sm:text-xl text-base">
+                            present_to_all 
+                        </span>
+                    </div>
+
+                    
+
+                
+                </div>
+                <div class="h-[1px] w-[100%] bg-gray-500"></div>
+            </div>
+            
+        </div>
+        <div class="third w-[20%] lg:block top-0 md:flex gap-4 flex-col mx-8 hidden ">
+            <nav class="bg-black w-full h-[60px] fixed flex z-10 ">
+                <input class="bg-neutral-700 w-[315px] my-2 p-5 rounded-[30px] focus:outline-none focus:ring-sky-500  focus:border-blue-500" type="text" placeholder="Search">
+            </nav>
+
+            <div class="whats mt-[70px] bg-neutral-700 rounded-xl w-[315px] ">
+                <h1 class="text-xl  p-3 font-bold">What's Happening</h1>
+                <div class="box1 flex gap-2 items-center cursor-pointer hover:bg-[#2f3336]">
+                    
+                    <img class="w-24 h-24 p-3 " alt="" draggable="true" src="https://pbs.twimg.com/semantic_core_img/1777750384485793792/WOilF_dz?format=jpg&amp;name=240x240" class="css-9pa8cd">
+                    <div class="flex flex-col">
+                        <h3 class="font-bold">Coachella 2024</h3>
+                        <p class="text-sm text-gray-400">Music Festival <li class="text-gray-400 text-sm mx-3">Yesterday</li></p>
+                        
+                    </div>
+                </div>
+                <div class="box2 flex items-center justify-between p-3 hover:bg-[#2f3336] hover:w-full ">
+                    <div class="cursor-pointer">
+                        <p class="text-gray-400 text-sm font-semibold">Trending in Delhi</p>
+                        <p class="font-bold">Dhruv Rathi</p>
+                        <p class="text-gray-400 text-sm font-semibold">21.3Kposts</p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined text-xl text-gray-400 ">more_horiz</span>
+                    </div>
+                </div>
+                <div class="box2 flex items-center my-3 justify-between p-3 hover:bg-[#2f3336]  ">
+                    <div class="cursor-pointer">
+                        <p class="text-gray-400 text-sm font-semibold">Sport Tranding</p>
+                        <p class="font-bold ">LSGvsDC</p>
+                        <p class="text-gray-400 text-sm font-semibold">Tranding with <b class="text-blue-600 font-medium">Krunal Pandiya</b></p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined text-xl text-gray-400 ">more_horiz</span>
+                    </div>
+                </div>
+                <div class="box2 flex items-center justify-between p-3 hover:bg-[#2f3336] ">
+                    <div class="cursor-pointer">
+                        <p class="text-gray-400 text-sm font-semibold">Trending in India</p>
+                        <p class="font-bold">M.Marsh</p>
+                        <p class="text-gray-400 text-sm font-semibold" >Commercial tranding</p>
+                        
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined text-xl text-gray-400 ">more_horiz</span>
+                    </div>
+                </div>
+                <div class="box2 flex items-center my-3 justify-between p-3 hover:bg-[#2f3336]">
+                    <div class="cursor-pointer">
+                        <p class="text-gray-400 text-[13px] font-semibold">Politics Trending</p>
+                        <p class="font-bold">#Rahul_Gandhi</p>
+                        <p class="text-gray-400 text-[13px] font-semibold">Trending with <b class="text-blue-600 font-medium">#Dhruv_Rathee, Coimbatore</b></p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined text- text-gray-400 ">more_horiz</span>
+                    </div>
+                </div>
+                <p class="text-blue-600 font-medium cursor-pointer mx-2 mb-4">Show more</p>
+
+            </div>
+            <div class="who bg-neutral-700 rounded-xl top-20 sticky w-[315px]">
+                <h1 class="text-xl  p-3 font-bold">Who to follow</h1>
+
+                <div class="profile-1 p-3 flex items-center gap-2 cursor-pointer hover:bg-[#2f3336]">
+                    <img class="rounded-full w-10" alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1747140324324225024/rLI5Hyjo_normal.jpg" class="css-9pa8cd">
+
+                    <div class="flex flex-col">
+                        <p class="flex">Delhi Traffic Police<svg class="w-5" viewBox="0 0 22 22" aria-label="Verified account" role="img" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-1plcrui r-lrvibr r-f9ja8p r-og9te1 r-9cviqr" data-testid="icon-verified"><g><path clip-rule="evenodd" d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="#829aab" fill-rule="evenodd"></path></g></svg></p>
+                        
+                        <p class="text-gray-400 font-semibold text-sm">@dtptraffic</p>
+                    </div>
+                    <button class="bg-white text-black py-1 px-4 rounded-[30px]">Follow</button>
+                </div>
+                <div class="profile-2 p-3 flex items-center gap-2 cursor-pointer hover:bg-[#2f3336]">
+                    <img class="rounded-full w-10" alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1554324665971003392/u-9Q5dCg_normal.jpg" class="css-9pa8cd">
+                    <div class="flex flex-col">
+                        <p class="flex">Indian club<svg class="w-5" viewBox="0 0 22 22" aria-label="Verified account" role="img" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-1plcrui r-lrvibr r-f9ja8p r-og9te1 r-9cviqr" data-testid="icon-verified"><g><path clip-rule="evenodd" d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="#829aab" fill-rule="evenodd"></path></g></svg></p>
+                        
+                        <p class="text-gray-400 font-semibold text-sm">@indiancl</p>
+                    </div>
+                    <button class="bg-white text-black py-1 px-4 ml-12 rounded-[30px]">Follow</button>
+                </div>
+                <div class="profile-3 p-3 flex items-center gap-2 cursor-pointer hover:bg-[#2f3336] hover:w-fit">
+                    <img class="rounded-full w-10" alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1769730778118955008/7agQ60xN_normal.jpg" class="css-9pa8cd">
+                    
+                    <div class="flex flex-col">
+                        <p class="flex">Harsh Gupta<svg class="w-5" viewBox="0 0 22 22" aria-label="Verified account" role="img" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-1plcrui r-lrvibr r-f9ja8p r-og9te1 r-9cviqr" data-testid="icon-verified"><g><path clip-rule="evenodd" d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z" fill="#829aab" fill-rule="evenodd"></path></g></svg></p>
+                        
+                        <p class="text-gray-400 font-semibold text-sm">@1nkandfabl3</p>
+                    </div>
+                    <button class="bg-white text-black py-1 px-4 ml-10 rounded-[30px]">Follow</button>
+                </div>
+
+                <div class="profile-2">
+                    
+                </div>
+                <div class="profile-3">
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        
+       
+    
+    
+</body>
+</html>
